@@ -1,0 +1,50 @@
+
+body{
+    background-color: #ADD8E6;
+}
+
+#select{
+    padding: 8px 0;
+    width: 40%;
+    outline: none; 
+    margin: 7px 0;
+    appearance: none; 
+    cursor: pointer;
+}
+
+#input {
+    padding: 8px 0;
+    width: 39.8%;
+    outline: none;
+    margin: 7px 0;
+    appearance: none;
+   cursor: pointer;
+    
+   
+}
+#select-percent{
+    padding: 8px 0;
+    width: 40%;
+    outline: none; 
+    margin: 7px 0;
+    appearance: none;
+    cursor: pointer; 
+}
+#button{
+    background-color: #357CCA;
+    border-color: #357CCA;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    width: 10%;
+    padding: 8px;
+    margin: 45px 0 0 220px;
+}
+.container{
+    padding: 0 7rem;
+    display: grid;
+   
+}
+.total{
+    margin-top: 55px;
+}

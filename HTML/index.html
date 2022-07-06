@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/asset/CSS/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>LOAN CALCULATOR</h1>
+        <span>Enter The Amount:</span>
+        <input id="input" type="number" min="0">
+        <span>Select The Months:</span>
+        <select name="" id="select">
+
+            <option value="3"> 3 MONTH</option>
+            <option value="6"> 6 MONTH</option>
+            <option value="12"> 12 MONTH</option>
+            <option value="18"> 18 MONTH</option>
+        </select>
+        <span>Select The Percentage:</span>
+        <select name="" id="select-percent">
+
+            <option value="10">10%</option>
+            <option value="12">12%</option>
+            <option value="14">14%</option>
+            <option value="16">16%</option>
+        </select>
+
+        <button id="button">CALCULATE</button>
+        <h1 class="total">TOTAL: <span id="price">0</span> AZN</h1>
+        <h1 >MONTHLY PAYMENT: <span id="month_pay">0</span> AZN</h1>
+
+    </div>
+
+    <script src="/asset/JS/app.js"></script>
+</body>
+
+</html>
